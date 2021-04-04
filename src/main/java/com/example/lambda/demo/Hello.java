@@ -8,7 +8,7 @@ public class Hello implements RequestHandler<Object, String> {
     @Override
     public String handleRequest(Object input, Context context) {
     	  context.getLogger().log("Input: " + input);
-    	  String output = "Hello...., " + input + "...!";
+    	  String output = "Hello. ..., " + input + "...!";
     	  return output;
     }
 
